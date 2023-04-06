@@ -15,7 +15,7 @@ public class Lista {
     public void imprime() {
         NoLista p = this.prim;
         while (p != null) {
-            System.out.println(p);
+            System.out.println(p.getInfo());
             p = p.getProx();
         }
     }
